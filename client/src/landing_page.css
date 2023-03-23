@@ -1,0 +1,967 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto',
+        sans-serif;
+    font-size: 18px;
+}
+
+
+.nav-wrapper {
+    background-color: #005555;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+
+.nav-wrapper ul {
+    display: flex;
+    margin: 10px;
+    width: 500px;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.nav-wrapper ul a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-wrapper ul a:hover {
+    color: #005555;
+    background-color: white;
+}
+
+.nav-wrapper li {
+    list-style: none;
+}
+
+.logo {
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+/* Hero Section */
+
+.logo h3 {
+    color: white;
+}
+
+.book_appo_button {
+    margin-top: 50px;
+    background-color: #005555;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+#hero {
+    height: 88vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: no-wrap;
+    background-color: white;
+}
+
+#hero img {
+    margin: 100px 50px 50px 50px;
+    width: 500px;
+    height: 400px;
+    border-radius: 30px;
+}
+
+.hero_text {
+    padding: 20px;
+    margin: 10px;
+    margin-top: 0px;
+
+}
+
+.main_text {
+    padding: 100px;
+    margin-top: 20px;
+}
+
+.modal {
+    color: black;
+}
+
+.main_text>h2 {
+    font-size: 35px;
+}
+
+.main_text>h6 {
+    margin-top: 20px;
+}
+
+.hero_text button {
+    font-size: 20px;
+    padding: 5px;
+    width: 50%;
+    border-radius: 20px;
+    color: white;
+    background-color: #005555;
+    margin: 20px 20px 0px 0px;
+    border: none;
+}
+
+.hero_text h2,
+h4 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+
+/* Fees Section */
+.fee_section {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    font-size: 18px;
+    background-color: #005555;
+    color: white;
+    margin: 40px;
+    border-radius: 20px;
+}
+
+.fees-button {
+    margin-right: 100px;
+    padding: 10px;
+    text-align: justify;
+}
+
+/* faculty */
+
+#doctors {
+    margin: 100px 30px 30px 30px;
+    padding: 40px 100px;
+    background-color: #005555;
+}
+
+#doctors>h3 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.row-1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 100px;
+}
+
+.row-1 img,
+.row-2 img {
+    align-items: center;
+    border-radius: 100px;
+}
+
+.row-1 p,
+.row-2 p {
+    margin: 0px;
+}
+
+.row-2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 100px;
+}
+
+.doctors-div {
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    color: black !important;
+    border: none;
+    border-radius: 20px;
+}
+
+.doctors-div img {
+    width: 200px;
+    height: 200px;
+}
+
+.Type {
+    border-radius: 20px;
+    color: white;
+}
+
+/* Reviews Section  */
+
+#carouselReview {
+    color: black;
+    margin: 50px 0px 0px 0px;
+}
+
+#carouselReview h3 {
+    padding: 10px;
+    text-align: center;
+}
+
+.carousel-inner h4 {
+    font-size: 18px;
+}
+
+.carousel-inner p {
+    font-size: 15px;
+    justify-content: left;
+}
+
+.carousel-inner {
+    padding: 80px 50px 50px 50px;
+}
+
+#review_carousel-1 {
+    padding: 20px;
+}
+
+#review_carousel-2 {
+    padding: 20px;
+}
+
+#carouselReview .img-text {
+    padding: 10px;
+    text-align: center;
+}
+
+.img-area {
+    width: 100px;
+    width: 100px;
+    border: 5px solid #fefefe;
+    border-radius: 50%;
+    margin: 5px auto;
+}
+
+.img-area img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+#footer {
+    height: auto;
+    color: white;
+    padding: 30px;
+    font-size: 13px;
+}
+
+.footer_form {
+    padding: 10px;
+    margin-left: 20px;
+    color: black;
+    width: 50%;
+}
+
+.footer_form form {
+    border-radius: 20px;
+}
+
+.footer_form input {
+    background-color: rgb(255, 255, 255);
+    color: white;
+}
+
+.footer_form textarea {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.footer_text {
+    color: white;
+    text-align: center;
+    background-color: #005555;
+    padding: 20px;
+}
+
+
+/* media query for mobile devices */
+@media (min-width:320px) and (max-width:480px) {
+
+    * {
+        font-size: 15px;
+    }
+
+    .nav-wrapper {
+        font-size: 8px;
+        background-color: #005555;
+        color: white;
+        width: 100%;
+        flex-direction: column;
+    }
+
+
+    .nav-wrapper ul {
+        margin: 0px;
+        width: 100%;
+        display: flex;
+    }
+
+    .nav-wrapper ul a {
+        color: white;
+        text-decoration: none;
+        margin: 0px;
+        padding: 2px;
+    }
+
+    .nav-wrapper ul a:hover {
+        color: #005555;
+        background-color: white;
+    }
+
+    .nav-wrapper li {
+        list-style: none;
+    }
+
+    #hero {
+        flex-direction: column;
+        height: auto;
+        margin: 20px;
+    }
+
+    .hero_text {
+        margin: 0px;
+        width: 100%;
+        height: auto;
+        padding: 20px 20px 0px 20px;
+    }
+
+    .hero_text button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .main_text {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .main_text>h4 {
+        font-size: 20px;
+        margin: 0px;
+        padding: 10px 10px 10px 0px;
+    }
+
+    .main_text>h2 {
+        font-size: 25px;
+    }
+
+    .main_text_para>p {
+        font-size: 13px;
+        margin: 0px;
+        width: 100%;
+        overflow-wrap: break-word;
+    }
+
+    .hero_img {
+        padding: 5px;
+    }
+
+    #hero img {
+        width: 150px;
+        height: 150px;
+        margin: 0px 0px 0px 80px;
+    }
+
+
+    #doctors {
+        height: auto;
+        margin: 20px;
+        padding: 10px;
+    }
+
+    #doctors h5 {
+        font-size: 15px;
+    }
+
+    #doctors h3 {
+        font-size: 12px;
+    }
+
+    #carouselReview {
+        margin: 30px;
+    }
+
+    .img-text p {
+        font-size: 12px;
+    }
+
+    .row-1 {
+        flex-direction: column;
+        row-gap: 10px;
+        padding: 10px;
+        align-items: center;
+        font-size: 13px;
+    }
+
+    .row-2 {
+        flex-direction: column;
+        row-gap: 10px;
+        padding: 10px;
+        align-items: center;
+        font-size: 13px;
+    }
+
+    .doctors-div {
+        width: 150px;
+        height: auto;
+        text-align: center;
+        align-items: center;
+        box-shadow: 5px 5px 20px rgb(55, 50, 48);
+        border: none;
+        border-radius: 20px;
+    }
+
+    .doctors-div>img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .doctorType {
+        color: white;
+        border-radius: 20px;
+        background-color: #005555;
+    }
+
+
+    .footer_form {
+        font-size: 12px;
+        width: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .footer_form form {
+        width: 100%;
+    }
+
+    .footer_form>h5,
+    h6 {
+        margin: 0px;
+        text-align: center;
+    }
+
+    .footer_form button {
+        margin: 5px;
+    }
+}
+
+
+@media (min-width:481px) and (max-width:768px) {
+
+    * {
+        font-size: 15px;
+    }
+
+    .nav-wrapper {
+        font-size: 8px;
+        background-color: #005555;
+        color: white;
+        width: 100%;
+    }
+
+    .logo {
+        width: 30%;
+        margin-top: 10px;
+        padding: 5px;
+    }
+
+    .nav-wrapper ul {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-wrapper ul a {
+        color: white;
+        text-decoration: none;
+        padding: 8px;
+    }
+
+    .nav-wrapper ul a:hover {
+        color: #005555;
+        background-color: white;
+    }
+
+    .nav-wrapper li {
+        list-style: none;
+    }
+
+    #hero {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .hero_text {
+        margin: 0px;
+        width: 100%;
+        height: auto;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .hero_text button {
+        width: 80%;
+        margin-top: 10px;
+    }
+
+    .main_text {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .main_text>h4 {
+        font-size: 20px;
+        margin: 0px;
+        padding: 10px 10px 10px 0px;
+    }
+
+    .main_text>h2 {
+        font-size: 25px;
+    }
+
+    .main_text_para>p {
+        font-size: 13px;
+        margin: 0px;
+        width: 100%;
+        overflow-wrap: break-word;
+    }
+
+    #hero img {
+        width: 150px;
+        height: 150px;
+        margin: 0px 0px 0px 120px;
+    }
+
+
+    #faculty {
+        height: auto;
+        margin: 20px;
+        padding: 10px;
+    }
+
+    #faculty h5 {
+        font-size: 15px;
+    }
+
+    #faculty h3 {
+        font-size: 12px;
+    }
+
+    #carouselReview {
+        margin: 30px;
+    }
+
+    .img-text p {
+        font-size: 12px;
+    }
+
+    .row-1 {
+        flex-direction: column;
+        row-gap: 10px;
+        padding: 10px;
+        align-items: center;
+        font-size: 13px;
+    }
+
+    .row-2 {
+        flex-direction: column;
+        row-gap: 10px;
+        padding: 10px;
+        align-items: center;
+        font-size: 13px;
+    }
+
+    .doctors-div {
+        width: 150px;
+        height: auto;
+        text-align: center;
+        align-items: center;
+        box-shadow: 5px 5px 20px rgb(55, 50, 48);
+        border: none;
+        border-radius: 20px;
+    }
+
+    .doctors-div>img {
+        width: 80px;
+        height: 80px;
+    }
+
+
+    .footer_form {
+        font-size: 12px;
+        width: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .footer_form form {
+        width: 100%;
+    }
+
+    .footer_form>h5,
+    h6 {
+        margin: 0px;
+        text-align: center;
+    }
+
+    .footer_form button {
+        margin: 5px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+
+    * {
+        font-size: 15px;
+    }
+
+    .nav-wrapper {
+        font-size: 8px;
+        background-color: #005555;
+        color: white;
+        width: 100%;
+    }
+
+    .logo {
+        width: 30%;
+        margin-top: 10px;
+        padding: 5px;
+    }
+
+    .nav-wrapper ul {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-wrapper ul a {
+        color: white;
+        text-decoration: none;
+        padding: 8px;
+    }
+
+    .nav-wrapper ul a:hover {
+        color: #005555;
+        background-color: white;
+    }
+
+    .nav-wrapper li {
+        list-style: none;
+    }
+
+    #hero {
+        padding: 20px;
+        flex-direction: row;
+        height: auto;
+    }
+
+    .hero_text {
+        margin: 0px;
+        width: 100%;
+        height: auto;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .hero_text button {
+        width: 80%;
+        margin-top: 10px;
+    }
+
+    .main_text {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .main_text>h4 {
+        font-size: 20px;
+        margin: 0px;
+        padding: 10px 10px 10px 0px;
+    }
+
+    .main_text>h2 {
+        font-size: 25px;
+    }
+
+    .main_text_para>p {
+        font-size: 13px;
+        margin: 0px;
+        width: 100%;
+        overflow-wrap: break-word;
+    }
+
+    #hero img {
+        width: 150px;
+        height: 150px;
+    }
+
+
+    #doctors {
+        height: auto;
+        margin: 20px;
+        padding: 10px;
+    }
+
+    #doctors h5 {
+        font-size: 15px;
+    }
+
+    #doctors h3 {
+        font-size: 12px;
+    }
+
+    #carouselReview {
+        margin: 30px;
+    }
+
+    .img-text p {
+        font-size: 12px;
+    }
+
+    .row-1 {
+        flex-direction: column;
+        row-gap: 10px;
+        padding: 10px;
+        align-items: center;
+        font-size: 13px;
+    }
+
+    .row-2 {
+        flex-direction: column;
+        row-gap: 10px;
+        padding: 10px;
+        align-items: center;
+        font-size: 13px;
+    }
+
+    .doctors-div {
+        width: 150px;
+        height: auto;
+        text-align: center;
+        align-items: center;
+        box-shadow: 5px 5px 20px rgb(55, 50, 48);
+        border: none;
+        border-radius: 20px;
+    }
+
+    .doctors-div>img {
+        width: 80px;
+        height: 80px;
+    }
+
+
+    .footer_form {
+        font-size: 12px;
+        width: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .footer_form form {
+        width: 100%;
+    }
+
+    .footer_form>h5,
+    h6 {
+        margin: 0px;
+        text-align: center;
+    }
+
+    .footer_form button {
+        margin: 5px;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1200px) {
+
+    .nav-wrapper {
+        background-color: #005555;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        position: sticky;
+    }
+
+    .nav-wrapper ul {
+        display: flex;
+        margin: 10px;
+        width: 500px;
+        justify-content: space-around;
+        padding: 10px;
+    }
+
+    .nav-wrapper ul a {
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .nav-wrapper ul a:hover {
+        color: #005555;
+        background-color: white;
+    }
+
+    .nav-wrapper li {
+        list-style: none;
+    }
+
+    #hero {
+        height: auto;
+        margin: 20px;
+    }
+
+    .hero_text {
+        margin: 0px;
+        width: 65%;
+        height: auto;
+        padding: 20px 20px 0px 20px;
+    }
+
+    .hero_text button {
+        width: 200px;
+        margin: 0px;
+    }
+
+    .main_text {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .main_text>h4 {
+        font-size: 20px;
+        margin: 0px;
+        padding: 10px 10px 10px 0px;
+    }
+
+    .main_text>h2 {
+        font-size: 25px;
+    }
+
+    .main_text_para>p {
+        font-size: 13px;
+        margin: 0px;
+        width: 100%;
+        overflow-wrap: break-word;
+    }
+
+    .hero_img {
+        margin: auto;
+        padding: 5px;
+    }
+
+    #hero img {
+        width: 150px;
+        height: 150px;
+        margin: auto;
+    }
+
+    #doctors {
+        height: auto;
+        margin: 20px;
+        padding: 10px;
+    }
+
+    #doctors h5 {
+        font-size: 15px;
+    }
+
+    #doctors h3 {
+        font-size: 18px;
+    }
+
+    .row-1 {
+        row-gap: 10px;
+        padding: 10px;
+        align-items: center;
+        font-size: 13px;
+        column-gap: 10px;
+    }
+
+    .row-2 {
+        row-gap: 10px;
+        padding: 10px;
+        align-items: center;
+        font-size: 13px;
+        column-gap: 10px;
+    }
+
+    .faculty-div {
+        width: 120px;
+        height: auto;
+        text-align: center;
+        align-items: center;
+        box-shadow: 5px 5px 20px rgb(55, 50, 48);
+        border: none;
+        border-radius: 10px;
+        padding: 3px;
+    }
+
+    .faculty-div>img {
+        width: 80px;
+        height: 80px;
+        border-radius: 2px solid white;
+    }
+
+    .row {
+        align-items: center;
+    }
+
+
+    .row .col-2 {
+        width: 150px;
+        height: 100px;
+    }
+
+    .img-text>p {
+        font-size: 13px;
+    }
+
+
+    #footer {
+        padding: 10px;
+    }
+
+    .footer_divison {
+        flex-direction: column;
+    }
+
+    .footer_img {
+        margin: auto;
+    }
+
+    .footer_img img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .footer_form>h5 {
+        margin: 0px;
+    }
+
+    .footer_form>h6 {
+        margin: 0px;
+    }
+
+    .footer_form {
+        padding: 10px;
+    }
+
+    .footer_form form {
+        border-radius: 20px;
+        width: 100%;
+    }
+}
